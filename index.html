@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>index.html</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body
+    {
+
+    }
+    .navbar
+    {
+     background: blue;
+     width: 100%;
+     height: 90px;
+     margin-top: 1.5cm;
+     position: fixed;
+     
+    
+    }
+    .navbar ul
+    {
+        list-style: none;
+        text-align: center;
+  
+        
+    }
+    .navbar ul li
+    {
+        display: inline-flex;
+        cursor: pointer;
+        margin-left:30px ;
+       
+     }
+     .navbar ul li a
+     {
+        padding: 25px;
+        color:white;
+        text-decoration: none;
+        margin-top: 0px;
+        text-align: center;
+    }
+      .active, .navbar ul li a:hover{
+          background: black;
+          color: white;
+          height: auto;
+      
+      }.dropdown{
+          display:none;
+      }
+      .navbar ul li:hover  .dropdown
+      {
+          display: block;
+          position: absolute;
+          margin-top: 45px;
+          background-color: blue;
+          font-size: 90%;
+        }
+          .navbar ul li:hover  .dropdown ul li{
+              display: block;
+              padding: 15px;
+              margin: 10px;
+              text-align: left;
+              width: auto;
+              height: auto;
+              border-bottom: 1px;
+             background: transparent;
+             }
+          .navbar ul li:hover  .dropdown ul li a
+          {
+         height: 100%;
+          }
+          .footer{
+               text-align:center;
+               color: white;
+               background: black;
+               height:25px;
+               margin-top:6vh;
+          }.all marquee{
+              color: black;
+              background: white;
+              position: fixed;
+              height: auto;
+              margin-top: -15px;
+
+
+          }.section2 h1{
+              text-align: center;
+              text-decoration: none;
+              color: black;
+             }.section
+             {
+              width: 100%;
+              height:55vh;
+              margin-left:1.5cm;
+            }.section{
+              display: inline-flex;
+              height: 65vh;
+              width: 100%;
+              margin-top: 4.5cm;
+             
+          }.section2
+          {
+              background: white;
+              width: 18%;
+              padding-left: 15px;
+              margin-left: 13cm;
+              height: 45vh;
+              margin-top: 1cm;
+              border-radius: 20px;
+              border-top: 20px solid black;
+              border-left: 20px solid gray;
+              border-right: 20px solid gray;
+              border-bottom: 20px solid black;
+
+          }.section2 button
+          {
+              border-radius: 20px;
+              background: rgba(231, 73, 73, 0.829);
+              color:white;
+              margin-left :1cm;
+              text-decoration: none;
+              font-size: 100%;
+            
+          }.section2 input
+          {
+            margin-left: 1cm;
+
+          }.section2 button a:hover
+          {
+              background: teal;
+              color: white;
+              text-decoration: none;
+              border-radius: 20px;
+
+          }.section2 button:hover{
+            background: teal;
+              color: white;
+              text-decoration: none;
+              border-radius: 20px;
+            
+            }.section2 button a
+            {
+              text-decoration: none;
+              color: white;
+            }
+        </style>
+          
+    
+</head>
+<body>
+    <div class="section">
+        <div class="section2">
+                <h1>login here</h1>
+                <div>
+                    <input type="text" placeholder ="username"><br><br>
+                    <input type="password" placeholder="password"><br><br>
+                    <button><a href="dash.html">Log in</a></button><br><br>
+                      if you don't have an account?<br><br>
+                   <button><a href="signup2.html">Sign up</a></button>
+                 </div>
+</div>
+</div>
+
+    <div class="footer">&copy designed by Jd</div>
+</body>
+</html>
